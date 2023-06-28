@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "compute.appService1": {
+      "restored": true,
+      "restoreTime": "2023-06-28T07:13:40.632245Z"
+    },
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2023-06-28T07:11:44.5296972Z"
+    }
+  },
+  "parameters": {
+    "compute.appService1.subscriptionId": {
+      "Name": "compute.appService1.subscriptionId",
+      "Type": "subscription",
+      "Value": "a9d8883d-40b2-434a-8856-ade3f13d8b67"
+    },
+    "compute.appService1.resourceGroupName": {
+      "Name": "compute.appService1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Tienda"
+    }
+  }
+}

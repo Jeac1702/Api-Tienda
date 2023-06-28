@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "p6InaD4NzS8hKB+QtMwa6/KhFTzqYSV69c9zVdD62aA1TCV7EX+F2cim03EvSd0EbSDxEbn2UXZ2iIgCR4U1zA==",
+  "dgSpecHash": "zWFT72pEH+RiOkG7or3h6n5TZGa45g84mU6yHBSxwniMnQGn+qmhGsy2JQ04mxU9AK1+u+RuZ8tDv/JOHKaJug==",
   "success": true,
   "projectFilePath": "C:\\Users\\jeac1\\OneDrive\\Documentos\\GitHub\\Api-Tienda\\apiTienda.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeac1\\.nuget\\packages\\extended.wpf.toolkit\\4.5.0\\extended.wpf.toolkit.4.5.0.nupkg.sha512",
     "C:\\Users\\jeac1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\jeac1\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\jeac1\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jeac1\\.nuget\\packages\\microsoft.openapi\\1.6.5\\microsoft.openapi.1.6.5.nupkg.sha512",
     "C:\\Users\\jeac1\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\jeac1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\jeac1\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

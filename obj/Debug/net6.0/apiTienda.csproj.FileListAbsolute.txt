@@ -110,3 +110,8 @@ C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\obj\Debug\net6.0\refint\api
 C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\obj\Debug\net6.0\apiTienda.pdb
 C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\obj\Debug\net6.0\apiTienda.genruntimeconfig.cache
 C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\obj\Debug\net6.0\ref\apiTienda.dll
+C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\bin\Debug\net6.0\Publicar\web.config
+C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\bin\Debug\net6.0\Publicar\apiTienda.deps.json
+C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\bin\Debug\net6.0\Publicar\apiTienda.runtimeconfig.json
+C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\bin\Debug\net6.0\Publicar\appsettings.Development.json
+C:\Users\jeac1\OneDrive\Documentos\GitHub\Api-Tienda\bin\Debug\net6.0\Publicar\appsettings.json
