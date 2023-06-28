@@ -2,10 +2,13 @@
 using apiTienda.Recursos;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Newtonsoft.Json;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Data.SqlTypes;
 using System.Text.Json.Serialization;
 using Xceed.Wpf.Toolkit;
 
@@ -35,7 +38,7 @@ namespace apiTienda.Controllers
         }
         [HttpPost]
         [Microsoft.AspNetCore.Mvc.Route("Agregar")]
-        public dynamic AgregarCategoria(CategoriasModel categoria)
+        public dynamic AgregarCategoria(CategoriasAdd categoria)
         {
             DBDatos conObj = new DBDatos();
             string query = "INSERT INTO CategoriaProducto(NombreCategoria, DescripcionCategoria) VALUES('" + categoria.NombreCategoria + "', '" + categoria.DescripcionCategoria + "')";
@@ -65,6 +68,33 @@ namespace apiTienda.Controllers
             string queryr = "SELECT * FROM CategoriaProducto";
             DataTable tdetallesprod = conObj.queryAdapter(queryr);
             string jsonLista = JsonConvert.SerializeObject(tdetallesprod);
+            return new
+            {
+                success = true,
+                message = "Exito",
+                result = new
+                {
+                    categorias = JsonConvert.DeserializeObject<List<CategoriasModel>>(jsonLista)
+                }
+            };
+        }
+        [HttpDelete]
+        [Microsoft.AspNetCore.Mvc.Route("Eliminar")]
+        public dynamic EliminarCategoria(CategoriasId categoria)
+        {
+            DBDatos conObj = new DBDatos();
+            try
+            {
+                string query = "delete from CategoriaProducto where idCategoria = '" + categoria.idCategoria + "'";
+                conObj.queryAdapter(query);
+            }
+            catch
+            {
+
+            }
+            string queryr = "SELECT * FROM CategoriaProducto";
+            DataTable tprod = conObj.queryAdapter(queryr);
+            string jsonLista = JsonConvert.SerializeObject(tprod);
             return new
             {
                 success = true,

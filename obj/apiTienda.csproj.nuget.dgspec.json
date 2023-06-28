@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeac1\\OneDrive\\Documentos\\Proyectos\\NetCore\\apiTienda\\apiTienda.csproj": {}
+    "C:\\Users\\jeac1\\OneDrive\\Documentos\\GitHub\\Api-Tienda\\apiTienda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeac1\\OneDrive\\Documentos\\Proyectos\\NetCore\\apiTienda\\apiTienda.csproj": {
+    "C:\\Users\\jeac1\\OneDrive\\Documentos\\GitHub\\Api-Tienda\\apiTienda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeac1\\OneDrive\\Documentos\\Proyectos\\NetCore\\apiTienda\\apiTienda.csproj",
+        "projectUniqueName": "C:\\Users\\jeac1\\OneDrive\\Documentos\\GitHub\\Api-Tienda\\apiTienda.csproj",
         "projectName": "apiTienda",
-        "projectPath": "C:\\Users\\jeac1\\OneDrive\\Documentos\\Proyectos\\NetCore\\apiTienda\\apiTienda.csproj",
+        "projectPath": "C:\\Users\\jeac1\\OneDrive\\Documentos\\GitHub\\Api-Tienda\\apiTienda.csproj",
         "packagesPath": "C:\\Users\\jeac1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeac1\\OneDrive\\Documentos\\Proyectos\\NetCore\\apiTienda\\obj\\",
+        "outputPath": "C:\\Users\\jeac1\\OneDrive\\Documentos\\GitHub\\Api-Tienda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
